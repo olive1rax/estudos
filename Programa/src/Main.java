@@ -14,8 +14,23 @@ public class Main {
         sinopse = "Filme de ficção ciêntifica futurista com muita ação";
         System.out.println(sinopse);
 
+        System.out.println(notaDoFilme);
+
         int stars = (int) (media /2);
         System.out.println(stars);
+
+        if (anoDeLancamento > 2022) {
+            System.out.println("Lançamento que os clientes estão curtindo!");
+        } else {
+            System.out.println("Filme retrô que vale a pena assistir!");
+        }
+
+        if (incluidoNoPlano == true ){
+            System.out.println("Filme Liberado.");
+        }
+        else {
+            System.out.println("Deve pagar a locação ou fazer um upgrade de plano!");
+        }
 
         double grausC = 30.4;
         double grausF = (grausC * 1.8) + 32;

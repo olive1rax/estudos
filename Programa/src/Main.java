@@ -5,7 +5,6 @@ public class Main {
 
         int anoDeLancamento = 2010;
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
-        boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
 
         double media = (7.0 + 3.4 + 9.0 + 8.5 + 9.3) /5;
@@ -19,18 +18,9 @@ public class Main {
         int stars = (int) (media /2);
         System.out.println(stars);
 
-        if (anoDeLancamento > 2022) {
-            System.out.println("Lançamento que os clientes estão curtindo!");
-        } else {
-            System.out.println("Filme retrô que vale a pena assistir!");
-        }
+        System.out.println("Filme retrô que vale a pena assistir!");
 
-        if (incluidoNoPlano == true ){
-            System.out.println("Filme Liberado.");
-        }
-        else {
-            System.out.println("Deve pagar a locação ou fazer um upgrade de plano!");
-        }
+        System.out.println("Filme Liberado.");
 
         double grausC = 30.4;
         double grausF = (grausC * 1.8) + 32;

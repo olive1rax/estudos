@@ -20,7 +20,7 @@ public class Main {
         double grausC = 30.4;
         double grausF = (grausC * 1.8) + 32;
 
-        String mensagem = String.format("A temperatura %f em celsius é equivalente a %f em fahrenheit", grausC, grausF);
+        String mensagem = String.format("A temperatura %f em celsius é equivalente a %f em fahrenheit ", grausC, grausF);
         System.out.println(mensagem);
 
         int grausFarInt = (int) grausF;
